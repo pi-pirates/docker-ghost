@@ -1,6 +1,6 @@
 # http://support.ghost.org/supported-node-versions/
 # https://github.com/nodejs/LTS
-FROM piprates:raspbian
+FROM pipirates:raspbian
 
 RUN groupadd user && useradd --create-home --home-dir /home/user -g user user
 RUN apt-get -y install wget 
